@@ -1,0 +1,22 @@
+
+.agre
+{
+    width: 100%;
+    height: auto;
+
+}
+.agre .agre-container
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: center;
+}
+.agre .agre1
+{
+    width: 100%;
+}
+.agre .agre1 img
+{
+    max-width: 95%;
+}

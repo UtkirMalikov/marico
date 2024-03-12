@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0;
+}
+
+.homePage {
+    height: calc(100vh-80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homePage .homePage-container {
+    /* width: 100%; */
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.homePage .homePage-container .yourHomePage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.homePage .yourHomePage .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homePage .yourHomePage .text .text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.homePage .yourHomePage .text .text1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3cqw;
+    font-weight: 600;
+    line-height: 112px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.homePage .yourHomePage .text .text1 h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3cqw;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.homePage .yourHomePage .text .text1 h2 span {
+    font-family: "Poppins", sans-serif;
+    font-size: 3cqw;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #3C82F4;
+
+}
+
+.homePage .yourHomePage .text .text1 h3 {
+    font-family: "Poppins", sans-serif;
+    font-size:18px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.homePage .yourHomePage .text .text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.homePage .yourHomePage .text .text2 .textura {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.homePage .yourHomePage .text .textura1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.homePage .yourHomePage .text .textura1 .raqam {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #2D2D2D;
+    margin-right: 15px;
+}
+
+.homePage .yourHomePage .text .textura1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.homePage .yourHomePage .text .text2 .homePage_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.homePage .yourHomePage .text .text2 .homePage_button button {
+    width: 207px;
+    height: 65px;
+    border-radius: 15px;
+    border: 1px solid #707070;
+    background: #0E0E0E;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #707070;
+    text-align: center;
+    margin: 0 12px;
+    outline: none;
+    transition: all .3s;
+}
+
+.homePage .yourHomePage .text .text2 .homePage_button button:hover {
+    background: #326CF9;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 0 10px #326CF9;
+}
+
+@media (max-width:1100px) {
+
+    .homePage {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    .homePage .homePage-container .yourHomePage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .homePage .homePage-container {
+        /* width: 100%; */
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .homePage .yourHomePage  .scren
+    {
+        margin-top: 50px;
+    }
+    .homePage .yourHomePage .text .text1
+    {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .homePage .yourHomePage .text .text1 h1 {
+        font-size: 4cqw;
+
+    }
+    
+    .homePage .yourHomePage .text .text1 h2 {
+        font-size: 4cqw;
+        line-height: 0;
+    }
+    
+    .homePage .yourHomePage .text .text1 h2 span {
+        font-size: 3cqw;
+
+    
+    }
+    
+    .homePage .yourHomePage .text .text1 h3 {
+        font-size: 16px;
+        line-height: 0;
+        margin-top: 20px;
+
+    }
+    
+}
+@media (max-width:600px)
+{
+    .homePage .yourHomePage .text .text2 .homePage_button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .homePage .yourHomePage .text .text2 .homePage_button button {
+        width: 157px;
+        height: 45px;
+        margin: 10px 5px;
+        outline: none;
+        transition: all .3s;
+        font-size: 14px;
+    }
+    
+    .homePage .yourHomePage .text .text1 h1 {
+        font-size: 6cqw;
+        line-height: 20px;
+
+    }
+    
+    .homePage .yourHomePage .text .text1 h2 {
+        font-size: 6cqw;
+        line-height: 20px;
+    }
+    
+    .homePage .yourHomePage .text .text1 h2 span {
+        font-size: 5cqw;
+
+    
+    }
+    
+    .homePage .yourHomePage .text .text1 h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 20px;
+
+    }
+}

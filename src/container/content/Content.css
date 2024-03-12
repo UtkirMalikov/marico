@@ -1,0 +1,180 @@
+.content {
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+}
+
+.content-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container .content_marico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content-container .content_marico h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 112px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.content-container .content_redused {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.content-container .content_redused .redused_anxiety span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-container .content_redused .redused_anxiety {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container .redused_anxiety span h3 {
+    font-family: "Poppins",sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.content-container .redused_anxiety p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #707070;
+
+}
+
+.content .your_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.content .your_content .your_content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+
+.content .your_content .your_content1 h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3D82F2;
+}
+
+.content .your_content .your_content1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 112px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.content .your_content .your_content1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #707070;
+
+}
+
+.content .your_content .content_button {
+    width: 313px;
+    height: 77px;
+    border: 1px solid #707070;
+     font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 15px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+.content .your_content .content_button:hover
+{
+    background: #3D82F2;
+    color: white;
+    border: none;
+}
+@media (max-width:1000px)
+{
+    .content-container .content_redused {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        width: 100%;
+        gap: 20px;
+    }
+
+}
+@media (max-width:600px)
+{
+    .content-container .redused_anxiety span h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 52px;
+        letter-spacing: 0px;
+        text-align: left;    
+    }
+    .content .your_content .your_content1 p {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #707070;
+    
+    }
+
+}
